@@ -9,20 +9,3 @@ form.addEventListener('submit', e =>{
 });
 
 
-// testing RegEx
-const username = '1233shaunp';
-const pattern = /^[a-z]{6,}$/;
-
-// let result = pattern.test(username);
-
-// if(result){
-//     console.log('regex test pase :)');
-
-// }
-// else{
-//     console.log('regex test failed :(');
-// }
-
-let result = username.search(pattern);
-
-console.log(result);
